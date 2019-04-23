@@ -1,0 +1,33 @@
+#presentation > img {
+	width: 30%;
+	height: auto;
+}
+
+#jury {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#presentation > p, #feed > p {
+	text-align: justify;
+}
+
+.member {
+	flex: 0 15%;
+	text-align: center;
+}
+
+.member span {
+	font-weight: bold;
+}
+
+.topline {
+	font-weight: bold;
+}
+
+.headline {
+	font-style: italic;
+	text-indent: 20px;
+}

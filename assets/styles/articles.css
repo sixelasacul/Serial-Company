@@ -1,0 +1,26 @@
+h2 {
+	font-size: 20px;
+}
+
+#head {
+	width: 100%;
+}
+
+#head > p {
+	font-weight: bold;
+	font-style: italic;
+}
+
+#head > img {
+	width: 20%;
+	height: auto;
+}
+
+.center {
+	text-align: center;
+}
+
+img.center, video.center {
+	display: block;
+	margin: auto;
+}

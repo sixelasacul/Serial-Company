@@ -1,0 +1,148 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: arial;
+	color: #5c5c5c;
+}
+
+ul {
+	list-style-type: none;
+	list-style-image: none;
+	list-style-position: outside;
+}
+
+a {
+	color: #5c5c5c;
+}
+
+h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #5c5c5c;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	background: #e8e8e8 url(../images/h3.jpg) no-repeat scroll right center;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 11px;
+	padding: 5px 10px;
+}
+
+h4 {
+	font-size: 12px;
+	color: #5c5c5c;
+}
+
+h6 {
+	border-bottom: 1px solid #f0eded;
+	margin: 10px 0 0;
+	padding: 0 0 10px;
+	background: url(../images/h4.jpg) no-repeat scroll left top;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: normal;
+	text-indent: 20px;
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px dotted #000000;
+	margin: 20px 0;
+}
+
+#top {
+	margin: 0;
+	padding: 0;
+	background: #5c5c5c url(../images/top.jpg) repeat-x scroll 0%;
+}
+
+#menu {
+	background: #e2e2e2 url(../images/bg_menu.jpg) repeat-x scroll 0%;
+}
+#menu li {
+	border-left: 1px solid #5c5c5c;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+
+#menu ul {
+	padding: 20px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#menu li:first-child {
+	border:	none;
+}
+
+#menu li a {
+	text-decoration: none;
+	color: #5c5c5c;
+}
+
+#menu li a:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	background: #e8e8e8;
+}
+
+#footer p {
+	margin: 20px 0 0 0;
+	padding: 10px 0;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.logo {
+	width: 20%;
+	height: auto;
+}
+
+.slogan {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	margin-bottom: 30px;
+}
+
+.slogan > * {
+	margin: 0;
+}
+
+.container {
+	margin: 0 auto;
+	width: 800px;
+}
+
+.quoted {
+	font-style: italic;
+}
+
+.quoted:before {
+	content: open-quote;
+}
+
+.quoted:after {
+	content: close-quote;
+}
+
+p.quoted {
+	font-size: 12px;
+}

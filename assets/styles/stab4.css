@@ -1,0 +1,43 @@
+#interview > img, #teaser > video {
+	width: 80%;
+	height: auto;
+}
+
+.author {
+	font-weight: bold;
+}
+
+#comments > hr {
+	margin: 20px auto;
+	width: 50%;
+	border: 0px;
+	border-bottom: 1px solid #000;
+}
+
+.comment > dt {
+	font-weight: bold;
+}
+
+.star {
+	color: yellow;
+}
+
+.one.star:before {
+	content: "\2605\2606\2606\2606\2606";
+}
+
+.two.star:before {
+	content: "\2605\2605\2606\2606\2606";
+}
+
+.three.star:before {
+	content: "\2605\2605\2605\2606\2606";
+}
+
+.four.star:before {
+	content: "\2605\2605\2605\2605\2606";
+}
+
+.five.star:before {
+	content: "\2605\2605\2605\2605\2605";
+}

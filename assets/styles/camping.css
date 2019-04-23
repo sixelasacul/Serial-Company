@@ -1,0 +1,13 @@
+#tour > p {
+	text-align: justify;
+}
+
+#tour > img {
+	width: 80%;
+	height: auto;
+}
+
+#myth > img {
+	width: 50%;
+	height: auto;
+}
